@@ -35,6 +35,8 @@ For popular distributions, I've included commands below.
 To build this project, run:
 
 ```bash
+git submodule init
+git submodule update
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
